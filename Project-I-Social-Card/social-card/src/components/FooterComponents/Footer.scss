@@ -1,0 +1,19 @@
+@import '../../vars';
+@import '../../mixins';
+
+footer {
+  margin-top: 20px;
+  margin-left: 52px;
+  color: $text-color-secondary;
+  display: flex;
+
+  div {
+    margin-right: 40px;
+    display: flex;
+
+    span {
+      margin-left: 10px;
+      font-size: 0.875rem;
+    }
+  }
+}

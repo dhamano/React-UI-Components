@@ -8,13 +8,13 @@ import './Header.scss';
 
 const HeaderContainer = () => {
   return (
-    <div class="header-container">
+    <header class="header-container">
       <ImageThumbnail />
       <div class="header-main">
         <HeaderTitle />
         <HeaderContent />
       </div>
-    </div>
+    </header>
   );
 }
 

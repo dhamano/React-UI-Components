@@ -2,15 +2,17 @@ import React from 'react';
 
 import HeaderContainer from './components/HeaderComponents/HeaderContainer';
 import CardContainer from './components/CardComponents/CardContainer';
+import Footer from './components/FooterComponents/Footer';
 
 import './App.scss';
 
 const App = () => {
   return (
-    <div class="social-card-holder">
+    <article class="social-card-holder">
       <HeaderContainer />
       <CardContainer />
-    </div>
+      <Footer />
+    </article>
   );
 };
 
