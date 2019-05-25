@@ -1,0 +1,42 @@
+/* All styles for your Card Components live here */
+@import '../../vars';
+@import '../../mixins';
+
+.card-content {
+  margin-top: 20px;
+  margin-left: 52px;
+  border: solid 1px #e6ecf0;
+  @include rounded-all("6px");
+  overflow: hidden;
+}
+
+.card-banner {
+  img {
+    max-width: 100%;
+  }
+}
+
+.content {
+  margin-top: -4px;
+  padding: 20px;
+
+  h2, p {
+    margin: 0;
+    font-size: 0.938rem;
+  }
+
+  h2 {
+    margin-bottom: 6px;
+    line-height: 1em;
+  }
+
+  p {
+    margin-top: 10px;
+    line-height: 1.25em;
+  }
+
+  a {
+    color: $text-color-secondary;
+    text-decoration: none;
+  }
+}

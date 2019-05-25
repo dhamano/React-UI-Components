@@ -1,0 +1,65 @@
+/* All styles for your header Components live here */
+@import '../../vars';
+@import '../../mixins';
+
+$square-icon: 48px;
+$img-size: 56%;
+
+.header-container {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  > div {
+  }
+}
+
+.post-icon {
+  width: $square-icon;
+  height: $square-icon;
+  margin-right: 0.5rem;
+  background: $site-main;
+  @include rounded-all("50%");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: $img-size;
+    height: $img-size;
+    margin-top: 3px;
+    filter: brightness(30) saturate(0);
+  }
+}
+
+.header-main {
+}
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+
+  h1, p {
+    margin-top: 2px;
+  }
+
+  h1 {
+    font-size: 0.938rem;
+    line-height: 1em;
+  }
+
+  p {
+    margin-left: 0.25rem;
+    color: $text-color-secondary;
+    font-size: 0.813em;
+    line-height: 1em;
+  }
+}
+
+.header-content {
+  font-size: 0.938rem;
+
+  p {
+    margin: 0;
+  }
+}
