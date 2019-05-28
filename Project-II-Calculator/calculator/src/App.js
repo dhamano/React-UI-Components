@@ -9,7 +9,7 @@ const App = () => {
   return (
     <div className="calculator-app">
       <CalculatorDisplay />
-      <div class="button-area">
+      <div className="button-area">
         <ActionButton text="clear"/>
         <NumberButton text="÷" buttonStyle="operator" />
         <NumberButton text="7" />
